@@ -22,20 +22,3 @@ Build a Convolutional Neural Network (CNN) capable of beating the random guessin
 * **Data Manipulation:** Pandas, NumPy
 * **Visualization:** Matplotlib
 * **Environment:** Jupyter Notebook
-
-## 📂 Project Structure
-After running the notebook, the data is automatically organized into the following structure:
-
-```text
-FoodVision-Mini/
-├── FoodVision-Mini.ipynb   # Main project notebook
-├── README.md               # Project documentation
-├── requirements.txt        # Dependencies
-├── .gitignore              # Ignored files
-└── pizza_steak/            # Dataset (Downloaded via notebook)
-    ├── train/
-    │   ├── pizza/          # 750 images
-    │   └── steak/          # 750 images
-    └── test/
-        ├── pizza/          # 250 images
-        └── steak/          # 250 images
